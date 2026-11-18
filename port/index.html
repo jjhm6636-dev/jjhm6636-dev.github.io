@@ -408,6 +408,9 @@ footer{display:none}
 /* 프로필 테두리 선 없애기 */
 .profile,.profile.has{border:0;background:transparent}
 .reels .item h3 .mono{display:none}
+  /* 마우스 오버 시 틀 생기는 문제 */
+.thumb{overflow:hidden;transform:translateZ(0);-webkit-mask-image:-webkit-radial-gradient(white,black)}
+.thumb img,.thumb .still,.thumb iframe{border-radius:0}
 </style>
 
 <nav class="nav" id="nav" aria-label="주요 메뉴">
